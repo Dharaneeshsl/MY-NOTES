@@ -1,0 +1,61 @@
+Mern
+
+
+   A MERN stack is a collection of JavaScript-based technologies used to build web applications. The acronym MERN stands for:
+• MongoDB: A NoSQL database used to store backend data as JSON files. MongoDB is a document-oriented database program that controls data instead of a relational database made of rows and columns. It is known for its speed when handling large amounts of unstructured data. It is also a popular choice because it provides high-performance data storage solutions, with accurate speed and reliability for data retrieval.
+• Express.js: A lightweight framework that runs on top of Node.js and is used to create server-side web applications quickly and easily. Express.js provides a wide range of features to develop both web and mobile applications and manages routing, HTTP methods, sessions, and error handling.
+• React.js: A JavaScript library used to build user interface components for web applications. React is an open-source library that allows users to access, modify, and enhance its source code. In a typical model-view-controller architecture, React defines the view part of the application, which is responsible for how the app looks and feels.
+• Node.js: A JavaScript runtime environment that allows developers to write server-side code in JavaScript. Node.js is an open-source, cross-platform environment used to develop I/O intensive web applications like video streaming sites and online chatting applications. Node.js does not support request handling functions, HTTP methods or serving files.
+A MERN stack developer might expect an average salary of $120,000 per year in the US, with the potential to earn up to $200,000 per year. A full-stack developer needs to understand the front-end, back-end, and database portions of an application.
+Front-end development is the visible part of a website or web application that the user directly interacts with. It is responsible for the user experience, including aspects like navigation, UI components, and overall website appearance. The three main technologies used in front-end development are:
+• HTML which defines the structure of a website and formats web pages.
+• CSS which is a style sheet that allows you to alter and style different web components, including font, spacing, and size.
+• JavaScript which is used to add interactivity to web pages. There are many front-end frameworks available that make development easier. Some of the most popular include React, Angular, Vue, and jQuery.
+Back-end development involves the server-side logic of a website or application. It manages the server and the database, which are not visible to the user. Back-end languages and frameworks include Java, PHP, C#, .NET, Python and Node.js. A back-end developer's responsibilities include understanding a website's performance needs, developing efficient solutions, managing APIs, securing data, and communicating effectively with front-end developers and system administrators.
+The database is a collection of interrelated data that allows for efficient retrieval, insertion, and deletion of data. Databases organize data in the form of tables, views, schemas, and reports. Some of the most commonly used database management systems include MySQL, PostgreSQL, Microsoft SQL Server, Oracle Database, and MongoDB.
+MEAN stack is another technology stack that is similar to MERN. The MEAN stack consists of MongoDB, Express.js, Angular, and Node.js. Both MEAN and MERN stacks are used for web development, and provide incredible user experience, stability, and scalability. The main difference between the two is the front-end framework, with MEAN using Angular, while MERN uses React.js. Angular is a JavaScript framework used to build single-page applications. React.js is an open-source JavaScript library used to render components. Another difference is that MEAN stack uses TypeScript, while MERN stack uses JavaScript and JSX. JSX is a combination of JavaScript and HTML. MEAN stack has a bi-directional data flow, meaning that changes made to the view part of the application are reflected in the model part and vice versa. MERN stack has a unidirectional flow of data, meaning that the model state is updated first and then the changes are rendered to the view. MEAN stack has a steeper learning curve, while MERN stack offers excellent documentation making development smoother. Mean stack is generally better for large-scale enterprise-level projects and MERN is better for faster development of smaller applications.
+React.js is a JavaScript library used to build fast and interactive user interfaces for both web and mobile applications. React is open-source, meaning any user can access, modify, and enhance its source code. It divides the user interface into reusable components which make code easier to debug and allow multiple developers to work simultaneously on the same web application. React also provides performance enhancements, such as virtual DOM and one-way data binding. React recently released an extension called React Native that can be used for developing cross-compatible mobile applications.
+• JSX (JavaScript Syntax Extension) is a syntax extension to JavaScript that allows HTML to be written in Javascript.
+• Higher-order components are functions that take a component as an argument and return a new component.
+• Pure components avoid unnecessary re-renders by implementing a shallow comparison of states and props, only rendering when necessary.
+• Component lifecycle is the series of stages a component goes through, including mounting, updating, and unmounting. Mounting includes the componentWillMount method, the render method, and the componentDidMount method. Updating includes componentWillReceiveProps, setState, shouldComponentUpdate, componentWillUpdate, and componentDidUpdate. Unmounting includes componentWillUnmount, which performs the necessary cleanup before removing a component from the DOM.
+• Props (properties) allow users to pass arguments or data to components, making them more dynamic.
+Node.js is a JavaScript runtime environment that allows developers to write server-side code in JavaScript. Node.js is an open-source, cross-platform environment used to develop I/O intensive web applications like video streaming sites and online chatting applications.
+• Node.js has global objects that include __dirname (directory name), __filename, exports, module, and require.
+• Error handling in Node.js is done through exceptions, which can be standard JavaScript errors, system errors, user-specific errors, or assertion errors.
+• Streams are objects that let you read or write data continuously. There are four types of streams: readable, writable, duplex, and transformed.
+• The buffer module allows you to handle streams of binary data.
+• Domains provide a way to handle different I/O operations as a single group by intercepting errors.
+• The DNS module enables name resolution by connecting to a DNS server or using methods for name resolution without network communication.
+• Node.js includes a debugger.
+Express.js is a web application framework that is built on top of Node.js and makes it easier to develop web and mobile applications. It manages routing, HTTP methods, sessions, and error handling.
+• It does not support request handling functions, HTTP methods or serving files.
+• Middleware is a function that intercepts the request and response cycle, and can be used for tasks such as logging or authentication.
+• Express.js can be used to create REST APIs, which allow applications to communicate with each other via the internet. HTTP requests can use methods such as GET (read data), PATCH (update data), POST (create new data), and DELETE (delete data).
+• Error handling in Express.js is done using middleware.
+npm (node package manager) is Node.js's built-in package manager. It allows users to install and manage code packages, and is the biggest software registry in the world. It can be used to install modules, like async, using the npm install async command.
+MongoDB is a NoSQL database program that controls document-oriented data. It is known for its speed when handling large amounts of unstructured data. MongoDB is often used for applications that deal with large volumes of data, offering high-performance data storage solutions.
+• A collection is a group of documents in a MongoDB database.
+• Operators are special symbols or keywords that tell a compiler what mathematical or logical operations to perform. Operators can be used to construct queries to communicate with datasets and retrieve data.
+• The syntax for operators in MongoDB is db.collection_name.find({field_name: {$operator: value}}).pretty().
+• Operators can be classified into query and projection operators, update operators, and aggregation pipeline operators.
+• Comparison operators include $eq (equal to), $ne (not equal to), $gt (greater than), $gte (greater than or equal to), $lt (less than), $lte (less than or equal to), $in (matches any value in an array), and $nin (matches no values in an array).
+• Logical operators include $and, $or, and $nor.
+• Element operators include $exists and $type.
+• Projection is a feature that selects only certain parts of data in a document without selecting the whole document. If a field is set to 1 in the projection, it will be included in the result, and if it is set to 0, it will be excluded, except for _id, which is included by default.
+• Sorting arranges data into a meaningful format, using the syntax db.collection_name.find().sort({field: order}), where the order is 1 for ascending or -1 for descending.
+• Limit restricts the number of records returned in a query, using the syntax db.collection_name.find().limit(number).
+• Indexing improves the speed of data retrieval in a database. Indexes can be created using db.collection_name.createIndex({field: order}), where the order is 1 for ascending or -1 for descending. 
+• Single field indexes are created on one field, compound indexes are created on multiple fields, and multi-key indexes are created on fields containing an array.
+• Covered queries are a specific application of indexing in which all query columns are already indexed, avoiding collection scans. 
+• To implement a covered query, include all fields used in the query and the projection in the index, and exclude the _id field if it's not needed.
+• The explain command can be used to analyze a query and see if it is using an index, covered query, or a collection scan.
+• Aggregation processes data records and returns a single computed result. Aggregation operations include $match (filter the records), $group (group documents to perform aggregation operations) and $sort (sort the resulting documents). MapReduce and single-purpose aggregation are other aggregation methods.
+• Data relationships can be captured by storing related data in a single document structure using embedded documents, or by using references to other documents. 
+• DBRefs are references from one document to another using the value of the first document ID, the collection name, and optionally its database. MongoDB documentation recommends using manual references unless the documents are referred to in multiple locations or collections in a database.
+• Replication involves multiple copies of data to increase data availability and allow for data recovery if a server fails.
+• Sharding is a method of distributing data across multiple databases and is supported by MongoDB.
+• Vertical scaling refers to adding more resources to a single server, while horizontal scaling involves adding more machines.
+• Capped collections are special collections with a fixed number of documents or elements that prevent them from growing past a certain threshold by overriding the oldest documents in the collection.
+• GridFS is a driver specification for storing and retrieving files larger than 16 MB in MongoDB. Files are stored as chunks, which are limited to 255 KB.
+Many large companies use MongoDB, including Aadhar Card, which uses MongoDB to store biometric and demographic data.
