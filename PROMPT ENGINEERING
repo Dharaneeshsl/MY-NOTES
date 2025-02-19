@@ -1,0 +1,243 @@
+# PROMPT ENGINEERING
+
+                 
+
+# Prompting best practices
+
+Prompting is an essential skill for getting the most out of generative AI. To get the best results from an AI tool, you need to craft a good prompt. A good prompt follows a simple framework: **Task,** **Context**, **References**, **Evaluate**, and **Iterate**. Explore how you can use this framework to elevate your prompting and unlock more of AI’s benefits.
+
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/wsueW1zYQr-BJx89qVocww_8904a2e4168a45408985ed42016e58f1_VjFhCpoXUW-wmPRAhuASDeQQWV0gfubZ_2TC4NDDqIIYbfl--rn8pWBYg5_JMInOdTQ8giOSpLO9cBcGtjWvpmxSBXwsvBYMzA5GG7alulc0hkZVH6DPDEuKrE1K50DiCoFQ3Lvgc8c2O0F0x9a4OvdAFLALgZq1K1aJIFKGZKQOOM5Ki-08scY-YgXINRo?expiry=1739750400000&hmac=QAbTUc_ZkCDLH8eI5Q6USf-En1vzjMkSoY-dnwPC7CM
+
+## Specify the task
+
+Specifying your task is the foundation of every prompt. Describe in detail what you want the AI tool to do, be clear and avoid ambiguity. If you write a task with vague instructions, it can result in an output that’s irrelevant or incorrect.  Your task may include a persona and a format preference so that the task is specific:
+
+- **Task:** What action do you want the tool to help you with? For example, you might ask the tool to write an email or create an image.
+    - **Persona:** What expertise do you want the AI tool to draw from, and who is the audience? For example, you might ask the tool to complete the task with the expertise of an IT professional, or ask it to create an output geared towards a specific audience like your manager or team.
+    - **Format:** How do you want the output to be formatted? For example, you might ask the AI tool to create a bulleted list or a comparison table.
+
+Here's an example of a prompt that includes a specific **task**, a persona and a format:
+
+*You're a concert promoter specializing in raising ticket sales in the alternative rock music industry. **Create a social media post about an upcoming music festival that speaks to the local music community while attracting out-of-state festival-goers**. Limit the post to 125-characters. Include 5 relevant hashtags.*
+
+## Provide necessary context
+
+Including detailed context in your prompts can narrow an AI tool's focus, enabling it to produce more tailored and effective output. Contextual information in your prompts might include:
+
+- Reasons and objectives for performing the task
+- Rules or guidelines that the output must follow
+- Relevant background information the tool should consider
+
+These details can help an AI tool better understand your needs. Here's an example of a prompt that provides necessary **context**:
+
+*You're a concert promoter specializing in raising ticket sales in the alternative rock music industry. Create a social media post about an upcoming music festival that speaks to the local music community while attracting out-of-state festival-goers. Limit the post to 125-characters. Include 5 relevant hashtags. **The local audience is primarily college students and young professionals (age 21-35) who follow indie rock. The festival features 12 bands over 2 days, with camping options and local food vendors**.*
+
+This prompt will likely generate a more engaging and effective output that's tailored to a specific audience—without requiring additional time spent iterating on the initial prompt.
+
+## Include references as examples
+
+References provide examples or resources that illustrate what you want an AI tool to produce. They specify details about your desired output, such as the style, tone, and format. Depending on the AI tool, you can include text, images, audio, or even video as references.
+
+When including references in your prompts, consider these suggestions:
+
+- Briefly explain how the references relate to the task.
+- Use 2-5 high-quality examples that closely align with your needs.
+- Include your own work or open-source examples if relevant.
+
+Here's an example of a prompt that includes **references**:
+
+*You're a concert promoter specializing in raising ticket sales in the alternative rock music industry. Create a social media post about an upcoming music festival that speaks to the local music community while attracting out-of-state festival-goers. Limit the post to 125-characters. Include 5 relevant hashtags. The local audience is primarily college students and young professionals (age 21-35) who follow indie rock. The festival features 12 bands over 2 days, with camping options and local food vendors. **Here are examples of successful posts from similar events:***
+
+- ***Example 1: Where mountains meet music: Indie Rocks Festival returns! Your favorite local bands + national acts. Good eats & Sleep under the stars! #Indie Rocks #SupportLocalMusic***
+- ***Example 2: Join Indie Fest under the desert skies! 2 nights of raw sound 2 move you + camping vibes #RoadTrip #CampLife #RockOn***
+
+**Note:** Later in the course, you'll learn more about prompting techniques which leverage references.
+
+## **Evaluate your output**
+
+AI tools vary in their training and capabilities. Each tool has unique strengths and limitations, which can influence the quality of their output. After receiving a response from an AI tool, it's essential to carefully evaluate the quality and effectiveness of the AI-generated content before using it or sharing the output with others.
+
+When evaluating an output, focus on factors such as:
+
+- Accuracy
+- Bias
+- Relevancy
+- Consistency
+
+AI-generated content should serve as a starting point, not a final product. Sometimes while assessing and validating an AI output, you might determine that it's unacceptable or not useful. When that's the case, you should continue on to the next step of the prompting framework.
+
+## **Iterate for better results**
+
+Even well-crafted prompts may not produce ideal results on the first try. This is where iteration comes in—the process of refining your prompt based on the AI's output. Think of iteration like having a back-and-forth conversation with an AI tool. The exchange typically flows like this:
+
+- You provide an initial prompt.
+- The AI tool responds with an output.
+- You evaluate the effectiveness of the AI-generated response.
+- You refine your request based on what worked and what didn't.
+- The cycle repeats until you produce the desired results.
+
+Effective prompting is not about getting a perfect result on the first try, but about being willing to refine and improve your approach. It's important to be patient, provide clear feedback, and keep prompting until you reach the desired outcome.
+
+**Pro Tip:** When you've arrived at an effective prompt for a particular task, save it! You can use your most effective prompts as templates for different use cases and needs. This can help you replicate successful AI-output consistently—without starting from scratch each time.
+
+# Prompting best practices
+
+Prompting is an essential skill for getting the most out of generative AI. To get the best results from an AI tool, you need to craft a good prompt. A good prompt follows a simple framework: **Task,** **Context**, **References**, **Evaluate**, and **Iterate**. Explore how you can use this framework to elevate your prompting and unlock more of AI’s benefits.
+
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/wsueW1zYQr-BJx89qVocww_8904a2e4168a45408985ed42016e58f1_VjFhCpoXUW-wmPRAhuASDeQQWV0gfubZ_2TC4NDDqIIYbfl--rn8pWBYg5_JMInOdTQ8giOSpLO9cBcGtjWvpmxSBXwsvBYMzA5GG7alulc0hkZVH6DPDEuKrE1K50DiCoFQ3Lvgc8c2O0F0x9a4OvdAFLALgZq1K1aJIFKGZKQOOM5Ki-08scY-YgXINRo?expiry=1739750400000&hmac=QAbTUc_ZkCDLH8eI5Q6USf-En1vzjMkSoY-dnwPC7CM
+
+## Specify the task
+
+Specifying your task is the foundation of every prompt. Describe in detail what you want the AI tool to do, be clear and avoid ambiguity. If you write a task with vague instructions, it can result in an output that’s irrelevant or incorrect.  Your task may include a persona and a format preference so that the task is specific:
+
+- **Task:** What action do you want the tool to help you with? For example, you might ask the tool to write an email or create an image.
+    - **Persona:** What expertise do you want the AI tool to draw from, and who is the audience? For example, you might ask the tool to complete the task with the expertise of an IT professional, or ask it to create an output geared towards a specific audience like your manager or team.
+    - **Format:** How do you want the output to be formatted? For example, you might ask the AI tool to create a bulleted list or a comparison table.
+
+Here's an example of a prompt that includes a specific **task**, a persona and a format:
+
+*You're a concert promoter specializing in raising ticket sales in the alternative rock music industry. **Create a social media post about an upcoming music festival that speaks to the local music community while attracting out-of-state festival-goers**. Limit the post to 125-characters. Include 5 relevant hashtags.*
+
+## Provide necessary context
+
+Including detailed context in your prompts can narrow an AI tool's focus, enabling it to produce more tailored and effective output. Contextual information in your prompts might include:
+
+- Reasons and objectives for performing the task
+- Rules or guidelines that the output must follow
+- Relevant background information the tool should consider
+
+These details can help an AI tool better understand your needs. Here's an example of a prompt that provides necessary **context**:
+
+*You're a concert promoter specializing in raising ticket sales in the alternative rock music industry. Create a social media post about an upcoming music festival that speaks to the local music community while attracting out-of-state festival-goers. Limit the post to 125-characters. Include 5 relevant hashtags. **The local audience is primarily college students and young professionals (age 21-35) who follow indie rock. The festival features 12 bands over 2 days, with camping options and local food vendors**.*
+
+This prompt will likely generate a more engaging and effective output that's tailored to a specific audience—without requiring additional time spent iterating on the initial prompt.
+
+## Include references as examples
+
+References provide examples or resources that illustrate what you want an AI tool to produce. They specify details about your desired output, such as the style, tone, and format. Depending on the AI tool, you can include text, images, audio, or even video as references.
+
+When including references in your prompts, consider these suggestions:
+
+- Briefly explain how the references relate to the task.
+- Use 2-5 high-quality examples that closely align with your needs.
+- Include your own work or open-source examples if relevant.
+
+Here's an example of a prompt that includes **references**:
+
+*You're a concert promoter specializing in raising ticket sales in the alternative rock music industry. Create a social media post about an upcoming music festival that speaks to the local music community while attracting out-of-state festival-goers. Limit the post to 125-characters. Include 5 relevant hashtags. The local audience is primarily college students and young professionals (age 21-35) who follow indie rock. The festival features 12 bands over 2 days, with camping options and local food vendors. **Here are examples of successful posts from similar events:***
+
+- ***Example 1: Where mountains meet music: Indie Rocks Festival returns! Your favorite local bands + national acts. Good eats & Sleep under the stars! #Indie Rocks #SupportLocalMusic***
+- ***Example 2: Join Indie Fest under the desert skies! 2 nights of raw sound 2 move you + camping vibes #RoadTrip #CampLife #RockOn***
+
+**Note:** Later in the course, you'll learn more about prompting techniques which leverage references.
+
+## **Evaluate your output**
+
+AI tools vary in their training and capabilities. Each tool has unique strengths and limitations, which can influence the quality of their output. After receiving a response from an AI tool, it's essential to carefully evaluate the quality and effectiveness of the AI-generated content before using it or sharing the output with others.
+
+When evaluating an output, focus on factors such as:
+
+- Accuracy
+- Bias
+- Relevancy
+- Consistency
+
+AI-generated content should serve as a starting point, not a final product. Sometimes while assessing and validating an AI output, you might determine that it's unacceptable or not useful. When that's the case, you should continue on to the next step of the prompting framework.
+
+## **Iterate for better results**
+
+Even well-crafted prompts may not produce ideal results on the first try. This is where iteration comes in—the process of refining your prompt based on the AI's output. Think of iteration like having a back-and-forth conversation with an AI tool. The exchange typically flows like this:
+
+- You provide an initial prompt.
+- The AI tool responds with an output.
+- You evaluate the effectiveness of the AI-generated response.
+- You refine your request based on what worked and what didn't.
+- The cycle repeats until you produce the desired results.
+
+Effective prompting is not about getting a perfect result on the first try, but about being willing to refine and improve your approach. It's important to be patient, provide clear feedback, and keep prompting until you reach the desired outcome.
+
+**Pro Tip:** When you've arrived at an effective prompt for a particular task, save it! You can use your most effective prompts as templates for different use cases and needs. This can help you replicate successful AI-output consistently—without starting from scratch each time.
+
+# Explore chain-of-thought prompting
+
+Breaking complex tasks down into manageable steps can be a challenge, especially if you're faced with a difficult task for the first time. Fortunately, there's a specialized prompting technique you can use to help—chain-of-thought prompting. With the help of this advanced prompting technique, you can leverage AI's problem solving capabilities to handle complicated work one step at a time.
+
+https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/JSUW1A3SS_eB208x8lyTpA_6a59a66275a443c8af013780386808f1_AD_4nXep3pQJqTP0AKUXZZfqSIsHLB1H8SIDRDeF6qdZqo0HhHi73v0RPj9EAZWW7m5ktLAoIwb6SkBp-BKptcMWU0_nUEkWPRRYrEcm4B0wudejvgCNP8xMgZsL8BzH_b_vlBKKcxjKsOUh5mVoHwyDry2tiVj6?expiry=1739750400000&hmac=ePBsMYZt4BUTn05iXDCx9IKaalnbZ-gK-XsPHB1H5vs
+
+## **Leveraging AI for complex tasks**
+
+**Chain-of-thought prompting** is a prompting technique that involves requesting a large language model to explain its reasoning processes. It asks an AI tool to trace a path through the reasoning it applied to generate its output—step by step, from input to output.
+
+To use chain-of-thought prompting, simply include key phrases in your prompt, such as:
+
+- *Explain your reasoning*
+- *Go step by step*
+
+These additions to your prompts encourage the AI to trace its thought process, making its output more informative. Chain-of-thought prompting can also help you validate the accuracy and reliability of an AI tool's output.
+
+!https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/iLIjQyXSQ8q3nPBWhYvrvw_9019b6cf921349079b62c6d8589bf4f1_Untitled-presentation-2-.png?expiry=1739750400000&hmac=tBbtLOE2eUwRyqICl6VGGg8Io1hD6JY8KpBQNd9hSLA
+
+For example, consider an HR manager who's developing onboarding materials for one of their organization's departments. Here's a brief example of how chain-of-thought prompting can be used to identify actionable steps to handle the task:
+
+*Create a bulleted list outlining the major duties and responsibilities of a new entry-level design hire at an ad agency. Explain your reasoning step by step.*
+
+By breaking down the onboarding process into stages and outlining specific activities, the AI can provide a more structured and comprehensive plan. This can help the HR manager identify potential gaps in their current onboarding process and make informed decisions about how to improve it.
+
+## **Prompt chaining**
+
+Prompt chaining is a technique that links connected prompts together, like connecting links in a chain. It's another useful technique for solving complex tasks. Rather than using a single prompt, prompt chaining works by building upon the concept of iteration, taking AI interactions to a new level.
+
+Using this technique involves three steps:
+
+1. **Task analysis.** Start by breaking down your complex task into logical steps.
+2. **Initial prompting.** Craft a prompt that effectively addresses the first step.
+3. **Input/output flow.** Use the output from one prompt as input for the next, iterating along the way, until you complete the task.
+
+### **Combining prompt chaining with chain-of-thought**
+
+While prompt chaining provides a structured approach to complex tasks, combining it with chain-of-thought prompting can significantly enhance the problem-solving process.
+
+Consider the example of an HR manager who's developing onboarding materials for a new entry-level design hire at an ad agency.
+
+Here’s an example of the potential output from their initial prompt:
+
+*Onboarding Course Outline for Entry-Level Hires at an Advertising Agency*
+
+- *Introduce agency culture and values*
+- *Summarize duties and responsibilities*
+- *Explain advertising industry fundamentals*
+- *Break down agency tools and technology*
+- *Detail client relationships and communication practices*
+
+And here's how they might apply prompt chaining to that output:
+
+*Based on your initial breakdown, let's focus on understanding the role of an entry-level designer at an ad agency. What are the key responsibilities and skills required for this position? Please provide a detailed list.*
+
+This iterative process of using the output from one prompt as input for the next would continue until all aspects of the project are addressed. By breaking down the complex task with prompt chaining and incorporating chain-of-thought, you can tackle more difficult problems while ensuring more accurate results.
+
+**Pro tip:** When using prompt chaining, keep track of outputs that might be relevant in later steps. This helps maintain consistency throughout the chain as you progress through the task. Additionally, don't hesitate to use chain-of-thought at any step along the way to validate the accuracy and relevancy of the AI tool's output.
+
+## **Limitations to consider**
+
+While prompt chaining can be an incredibly useful technique, it's important to be aware of potential challenges that can occur—particularly with longer chains.
+
+AI tools can struggle to remember context from earlier parts of the conversation as the prompt chain grows longer. This can lead to:
+
+- Inconsistent responses
+- Overlooking important details from earlier prompts
+- Difficulty maintaining the overall objective of the task
+
+To overcome these challenges and ensure effective prompt chaining, consider the following strategies:
+
+- **Use checkpoints:** Periodically ask the AI to provide a brief summary of the overall goal.
+- **Work on sub-tasks:** Divide very complex tasks into even smaller sub-task so that you can treat each as its own shorter chain before moving on to the next.
+- **Recap and redirect:** If you notice an AI tool is deviating from the original goal, provide a recap of the essential information and redirect it back to the main objective.
+- IN SHOT
+
+Remember that, in general, you’ll only get good output if you provide good input. To help you create good input, consider using this framework when crafting prompts:
+
+- Describe your **task**, specifying a persona and format preference.
+- Include any **context** the generative AI tool might need to give you what you want.
+- Add **references** the generative AI tool can use to inform its output.
+- **Evaluate** the output to identify opportunities for improvement.
+- **Iterate** on your initial prompt to attain those improvements.
