@@ -1,0 +1,51 @@
+Generative AI
+
+
+
+Generative AI
+• Definition: Generative AI is a field of artificial intelligence focused on creating new data, such as text, images, or other forms of content. It uses deep learning techniques to generate new data that is similar to the data it was trained on.
+• Deep Learning Foundation: Generative AI relies on deep learning methods, including neural networks, to enable its data generation capabilities.
+• Applications: The applications of generative AI include creating models, and assisting in various tasks.
+• Discriminative vs Generative Models: Discriminative models are related to supervised learning, whereas generative models first use unsupervised learning for grouping, and then use supervised fine-tuning.
+Large Language Models (LLMs)
+• Definition: LLMs are AI models trained on massive amounts of text data, capable of producing human-quality text. They can generate text, answer questions, and perform other tasks.
+• Historical Context: The evolution of LLMs includes models based on recurrent neural networks (RNNs), long short-term memory networks (LSTMs), gated recurrent units (GRUs), and attention mechanisms.
+• Transformer Architecture: Many LLMs are built on the Transformer architecture, which utilizes self-attention mechanisms. The Transformer includes multi-headed attention and feed-forward neural networks.
+• Training: LLMs are trained using a combination of unsupervised pre-training and supervised fine-tuning. Reinforcement learning is also used in training certain models like ChatGPT.
+• Use Cases: LLMs can be used for various tasks such as text generation, question answering, and sentiment analysis, among others.
+Key Concepts and Techniques
+• Tokens: Tokens are the basic units of text that LLMs process. A token can be a word or a part of a word, and an understanding of tokens is essential to prompt design.
+• Prompt Engineering: A prompt is an input given to an LLM, which elicits a response as an output. There are different types of prompts: 
+• Zero-shot prompts are direct questions given to the model without additional context.
+• Few-shot prompts provide a description or example along with the question to guide the model.
+• Reinforcement Learning: Reinforcement learning is a training method that rewards desired behavior and penalizes undesired behavior, and was used to train ChatGPT.
+• Transfer Learning: Transfer learning involves using knowledge gained from one task and applying it to another related task. Fine-tuning is a process of adjusting a pre-trained model for a specific task.
+Tools and Frameworks
+• OpenAI API: This API provides access to state-of-the-art AI models, such as GPT-3 and GPT-4. It enables developers to use these models in their applications. The API also lists deprecated models.
+• Hugging Face: This platform hosts numerous open-source models that can be accessed via the Hugging Face Hub.
+• LangChain: LangChain is a framework that simplifies the development of LLM-powered applications. It allows the chaining of LLMs with various tools and data sources. 
+• Agents: Agents can use external tools to gather information or perform actions.
+• Chains: Chains connect multiple LLMs or other components. Sequential chains pass the output of one component to another.
+• Memory: 
+• Conversation buffer memory stores all previous interactions in a conversation.
+• Conversation buffer window memory stores only the past 'K' interactions, where 'K' is a defined window size.
+• Document Loaders: These are used to import data from various sources like PDFs and text files.
+• Pinecone: Pinecone is a vector database used for storing and retrieving embeddings. It is fully managed and cloud-based.
+• Chroma DB: Chroma DB is another vector database similar to Pinecone.
+Embeddings
+• Definition: Embeddings are vector representations of words, sentences, or other data, which capture their semantic meaning. They allow LLMs to understand relationships within the data.
+• Word2Vec: This is an algorithm that generates word embeddings, resulting in dense vectors, although not preserving context.
+• Vector Databases: Vector databases store and retrieve embeddings, enabling efficient similarity searches.
+Function Calling
+• Definition: Function calling allows LLMs to connect to external tools or APIs, enabling them to perform actions based on requests.
+• Process: Function calling requires defining a function with parameters and descriptions, which the LLM uses to call external APIs, extracting parameters from the prompt and sending them to the APIs.
+Practical Implementation
+• Environment Setup: It is recommended to create virtual environments to install packages and avoid conflicts.
+• API Keys: To use services like OpenAI and Google Gemini, API keys are needed.
+• Model Usage: Open-source models can be used with LangChain similarly to OpenAI models. The Hugging Face library can be used to import these models.
+• Pipelines: Pipelines simplify the use of models for specific tasks.
+Google Gemini
+• Multi-modal: Gemini is a multi-modal LLM, meaning that it can process and understand both text and images. It can generate code, text, and perform other tasks.
+• Gemini Pro: Gemini Pro is available for free and can be accessed through its API. It can handle 60 queries a minute.
+• API Keys: An API key is required to use Google's Gemini models.
+This detailed explanation should provide a comprehensive overview of the concepts and techniques discussed in the sources, and it draws on the information from our previous conversation. Let me know if you need further clarification or detail on any specific topic.
