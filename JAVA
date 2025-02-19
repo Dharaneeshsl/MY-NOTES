@@ -1,0 +1,162 @@
+JAVA
+Okay, here are some notes based on the provided source material, focusing on key concepts and practical details for learning Java:
+Setting up and Basics
+• To begin, create a new folder for your Java files using the "Open Folder" option in VS Code.
+• VS Code has an integrated terminal, where you can check your Java version using java -version and confirm that the Java compiler is working with javac.
+• Java 17 is the LTS (long-term support) version, which is suitable for use, even if newer versions are available.
+• To create a new file, use the "new file" icon.
+Data Types and Variables
+• Data is stored in 'boxes', which are called variables.
+• int is used for storing integer values, including negative and positive whole numbers.
+• Floating-point numbers are stored with the float keyword.
+• There are different subtypes of integers, such as byte, short, int, and long, which vary in the amount of memory they use.
+• int uses 4 bytes (32 bits) of memory.
+• long uses 8 bytes of memory.
+• short uses 2 bytes of memory.
+• byte uses 1 byte (8 bits) of memory.
+• In Java, you must specify the data type of a variable before the variable name (e.g., int num = 3;).
+• The = is the assignment operator, taking the value on the right and assigning it to the variable on the left.
+• Every statement in Java must end with a semicolon ;.
+Printing Output
+• Use System.out.print() to print output, but it will not create a new line.
+• Use System.out.println() to print output and move to the next line.
+Operators
+• Arithmetic operators include + (addition), - (subtraction), * (multiplication), / (division), and % (modulus for the remainder).
+• Java has shorthand operators for modifying a variable's value, such as +=, -=, *=, /=, which combines the operation and assignment.
+• Increment ++ and decrement -- operators can be used to increase or decrease a variable by 1.
+• The increment and decrement operator can be used before or after a variable (e.g., num++ or ++num) but will behave differently.
+Conditional Statements
+• Conditional statements (if/else) allow for different code execution paths based on whether a condition is true or false.
+• The basic syntax for an if statement is: if (condition) { //code to execute if true }.
+• The syntax for an if/else statement is: if (condition) { //code to execute if true } else { //code to execute if false }.
+• Logical operators like && (AND), || (OR), and ! (NOT) can combine multiple conditions.
+• Curly brackets {} are used to define a block of code in if/else statements. If there's only one statement, they are optional.
+Switch Statements
+• The switch statement provides an alternative way to control program flow, executing specific blocks of code based on the value of a variable.
+• A switch statement uses case keywords to match specific values. If a match is found the code inside that block is executed.
+Loops
+• While loops execute a block of code as long as a condition remains true.
+• Do-while loops are similar to while loops, but they execute the block of code at least once, even if the condition is initially false.
+• Nested loops involve placing one loop inside another, useful for complex iterations.
+• For loops provide a concise way to iterate a specific number of times.
+Creating a Calendar Example (Nested Loops)
+• An outer loop can represent days, while an inner loop can represent hours within each day.
+• To properly add values to the string inside a print statement use brackets to ensure mathematical operations are resolved separately from string concatenation.
+Classes and Methods
+• Classes are blueprints for objects, containing both data (variables) and behaviors (methods).
+• Methods are used to define actions.
+• The public keyword makes a method accessible from anywhere.
+• Methods can return a value, which must be specified with the method's return type (e.g., int, string, void for no return).
+• To call a method you need an object (instance) of the class.
+Objects
+• Objects are instances of a class.
+• Use the new keyword to create an object.
+JVM, JRE, and JDK
+• The JDK (Java Development Kit) includes the JRE and JVM and provides tools for developing and running java applications.
+• The JRE (Java Runtime Environment) provides an environment to run Java applications and includes the JVM.
+• The JVM (Java Virtual Machine) executes the Java bytecode.
+Method Parameters
+• Methods can accept parameters (values) that are passed when the method is called.
+Stack and Heap Memory
+• Java uses stack memory for storing method calls, local variables, and reference variables.
+• Java uses heap memory for storing the actual objects, while the reference variables live on the stack.
+• Each method call gets its own stack frame.
+Instance Variables
+• Instance variables belong to the object of the class and each object gets its own copy of the variable.
+Arrays
+• Arrays are used to store multiple values of the same data type in one variable.
+• Arrays have a fixed size.
+• Arrays are declared by adding square brackets [] after the data type.
+Enhanced For Loop
+• The enhanced for loop (also known as a for-each loop) provides a simpler way to iterate over arrays and collections.
+Strings
+• Strings are used to store a sequence of characters.
+• Strings must be enclosed in double quotes ".
+• Strings can be concatenated using the + operator.
+• Strings are immutable, meaning their values cannot be changed after creation. When a string is changed, a new string object is created.
+String Constant Pool
+• Java uses a string constant pool to save memory by reusing the same string object if the string already exists.
+Access Modifiers
+• Private access modifiers restrict the variable access within the class. To access private variable you must create methods to access or update them (getter or setters).
+Getters and Setters
+• Getters are methods used to read values of private instance variables.
+• Setters are methods used to update the values of private instance variables.
+• Many IDEs offer features to automatically generate getters and setters.
+this Keyword
+• The this keyword is used to refer to the current object.
+Constructors
+• Constructors are special methods used to initialize objects.
+• Constructors have the same name as the class and do not specify a return type.
+• You can define multiple constructors with different parameter lists (overloading).
+• If a class does not have a constructor then a default constructor (without parameters) is generated by the compiler, if one of the constructors is defined then default is not generated.
+Inheritance
+• Inheritance allows a class (subclass or child) to inherit properties and methods from another class (superclass or parent).
+• The extends keyword is used to establish an inheritance relationship.
+• The subclass can inherit all properties except the private properties of a superclass.
+Method Overriding
+• Method overriding allows a subclass to provide a specific implementation of a method that is already defined in its superclass.
+Packages
+• Packages are used to organize classes into namespaces, preventing naming conflicts and improving code structure.
+final Keyword
+• The final keyword, when used with a variable, makes that variable a constant, whose value cannot be changed after initialization.
+• A final method cannot be overridden.
+• A final class cannot be inherited.
+Object Class
+• Every class in Java implicitly extends the Object class.
+• The Object class provides common methods like equals(), hashCode(), and toString().
+Upcasting and Downcasting
+• Upcasting is when you assign a child class object to a parent class reference. It's an implicit process that does not require a cast operator.
+• Downcasting is when you assign a parent class object to a child class reference. It must be done using explicit cast operators. This can result in ClassCastException if the object is not actually an instance of the child class.
+Abstract Classes
+• An abstract class is a class that cannot be instantiated, and its purpose is to provide a template for subclasses.
+• Abstract classes can have abstract methods, which are methods that don't have an implementation, which means they are declared but not defined.
+• Abstract methods can be declared using the abstract keyword, and they end with a semicolon instead of curly braces.
+• Subclasses of an abstract class are required to provide an implementation for the abstract methods.
+Interfaces
+• An interface is a collection of abstract methods and constant variables, and it cannot be instantiated.
+• Interfaces can be implemented by classes using the implements keyword.
+• All methods in an interface are by default public and abstract.
+Functional Interface
+• A functional interface (also called a SAM interface) is an interface with only one abstract method.
+Marker Interface
+• A marker interface is a blank interface with no methods, used to update something to the compiler.
+Enums
+• Enums are a special data type to define a set of named constants.
+• Enums can have constructors, methods, and instance variables, they behave like a class.
+Annotations
+• Annotations are a form of metadata that provides extra information about the code to the compiler or the runtime.
+• Annotations are marked by the @ symbol.
+• Some common annotations include @Override, and @FunctionalInterface.
+Exception Handling
+• Exceptions are runtime errors that disrupt the normal flow of a program.
+• Use try, catch, and finally blocks for exception handling.
+• try block is used to enclose the code which is risky or may throw exception.
+• catch block handles exceptions that are thrown in the try block.
+• A finally block executes code that always needs to be run, regardless of whether an exception occurred.
+• Use the throw keyword to create a new exception instance and pass control to the appropriate catch block.
+Input/Output
+• The BufferedReader class is used to read input from the console or other input streams.
+• The Scanner class is an alternative for taking input from the user.
+• Scanner class automatically converts the input data to int if nextInt method is used.
+Threads
+• Threads provide the capability to execute multiple blocks of code concurrently.
+• Threads can be in different states, including running, waiting, and runnable.
+• wait() and notify() methods are used to control threads.
+Collections
+• The Collection API is a concept for managing groups of objects.
+• The Collection interface is an interface for various data structures.
+• The Collections class has multiple methods to work with data structures.
+List
+• The List interface provides indexed access to its elements.
+• ArrayList is an implementation of the List interface.
+Set
+• The Set interface provides a collection that does not allow duplicate elements.
+• HashSet, TreeSet, and LinkedHashSet are implementations of the Set interface.
+Iterable and Iterator
+• The Iterable interface enables a collection to be traversed using an iterator.
+• Iterators provide a way to iterate over a collection of elements.
+Map
+• The Map interface provides a way to store key-value pairs.
+• HashMap is an implementation of the Map interface.
+• Keys in a map must be unique.
+This information should give you a solid foundation for your Java learning. Let me know if there is anything else I can help you with.
