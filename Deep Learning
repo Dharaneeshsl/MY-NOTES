@@ -1,0 +1,93 @@
+Deep Learning
+
+Here is a clear explanation of the concepts you asked about, based on the sources:
+Vectors
+• Vectors are a basic mathematical concept.
+• Geometrically, vector addition can be visualized using a triangle or parallelogram method.
+• In the parallelogram method, you take two vectors, place the tail of one at the head of the other, draw parallels, and then join the vectors.
+• The resultant vector is A + B.
+• Other basic terms associated with vectors are scalars, zeros, and unit vectors.
+Matrices
+• A square matrix has an equal number of rows and columns.
+• A matrix is a square matrix if the number of rows is exactly equal to the number of columns.
+• In a diagonal matrix, all the elements except the principal diagonal are zero.
+• A scalar matrix is a diagonal matrix in which all the elements of the principal diagonal are the same.
+• An identity matrix (also called a unit matrix) has ones in the principal diagonal and zeros elsewhere. Multiplying any matrix or vector by an identity matrix yields the original matrix or vector.
+• A symmetric matrix is a square matrix that is equal to its transpose.
+Matrix Operations
+• Matrix-vector product can be understood as a linear combination of vectors.
+• A linear combination of vectors is the sum of each vector multiplied by a scalar.
+• The span of a set of vectors is the set of all possible linear combinations of those vectors.
+• For example, you can multiply a vector u by a scalar and a vector v by a scalar, then add the results to get a linear combination.
+Linear Transformation
+• A linear transformation can be thought of as a function in linear algebra.
+• It is an important concept in linear algebra and is used extensively in deep learning.
+Determinant
+• The determinant of a square matrix is a single number that can be calculated from the elements of the matrix.
+• Geometrically, the determinant tells you how the change in area or volume occurs in a linear transformation.
+• For a 2x2 matrix [ a b; c d ], the determinant is calculated as ad - bc.
+• The determinant of a matrix can be zero.
+• The rule of Sarrus is used to calculate the determinant of a 3x3 matrix.
+• For an n x n matrix, you can define a submatrix and recursively calculate the determinant.
+Inverse of a Matrix
+• The inverse of a matrix is calculated using the adjugate of that matrix and the determinant.
+• A matrix is not invertible if the determinant of the matrix is zero.
+• The adjugate of a matrix is the transpose of the cofactor matrix.
+• The cofactor of a matrix is (-1)^(i+j) times the minor of the element.
+Trace of a Matrix
+• The trace of a matrix is the sum of the elements on the main diagonal of the matrix.
+• The trace of a matrix is denoted as TR(A).
+• The cyclic property of trace states that the trace of a product of matrices is invariant under cyclic permutations of the matrices: TR(ABCD) = TR(BCDA) = TR(CDAB) = TR(DABC).
+• Arbitrary permutations are not allowed.
+• The trace of a matrix can be formally defined using summation notation.
+Systems of Equations
+• A system of linear equations can be solved by merging the equations, making the left-hand side equal to the left-hand side and the right-hand side equal to the right-hand side.
+• Subtracting the equations or using other algebraic manipulations can solve for the values of variables.
+• Geometrically, the solution of a system of equations is the point where the lines or planes intersect.
+• Linear equations do not contain variables raised to any power.
+• Solving linear equations can be done through substitution or elimination.
+Calculus
+• Calculus is an advanced version of algebra and geometry that is used for solving real world problems.
+• It is used for analyzing how things change.
+• Pre-calculus includes concepts like functions, logarithms, trigonometry, exponential functions and basic algebra.
+Functions
+• A function is a relationship between an input and an output.
+• Piecewise functions are functions defined by multiple sub-functions, each applying to a certain interval of the main function's domain.
+Trigonometry
+• Trigonometry is the study of triangles, particularly right triangles.
+• The main trigonometric functions are sine, cosine, and tangent.
+• The reciprocals of these functions are cosecant, secant, and cotangent.
+• SOH CAH TOA is a mnemonic for remembering the definitions of sine, cosine, and tangent.
+Limits
+• A limit is the value that a function approaches as the input approaches some value.
+• The formal definition of a limit is that the limit of f(x) as x approaches c exists if and only if the left and right hand limits exist and are equal.
+• A function is continuous if there are no gaps or holes in the graph.
+• The limit of a function can be evaluated using substitution, factoring, rationalizing, or conjugates.
+• The squeeze theorem (or sandwich theorem) is used to evaluate limits that are difficult to evaluate directly.
+Differentiation
+• Differentiation is the process of finding the derivative of a function.
+• A derivative measures how much one thing changes compared to another.
+• The derivative of a function at a point is the slope of the tangent line to the graph of the function at that point.
+• The derivative of a line is the slope of the line.
+• The difference quotient is used to define a derivative, as well as the formal definition of a limit which defines the derivative.
+• The definition of a derivative of f(x) with respect to x is the limit of (f(x+h) - f(x))/h as h approaches 0.
+• The derivative of a constant is zero.
+• The power rule is used to find the derivative of functions of the form x^n.
+• The sum rule and difference rule allow you to find derivatives of sums or differences of functions.
+• The derivatives of trigonometric functions have specific formulas.
+• The derivatives of logarithmic functions can be found by using specific formulas.
+• The product rule is used to find the derivative of a product of two functions.
+• The quotient rule is used to find the derivative of a quotient of two functions.
+• The chain rule is used to find the derivative of composite functions.
+Neural Networks and Backpropagation
+• Hyperparameters are parameters of the model that you must manually specify, such as the learning rate, whereas parameters are inherent to the model itself.
+• Epochs refers to the number of times the entire dataset is passed forward and backward through the network.
+• When training a model the data set is divided into smaller chunks (batches) to manage the data processing.
+• Gradient descent is an iterative process used to update the parameters of a neural network.
+• Backpropagation is the method to update weights in a neural network using derivatives.
+• Activation functions introduce non-linearity into the neural network.
+• Common activation functions include sigmoid, tanh, and ReLU.
+• The derivative of activation functions are also important in backpropagation, such as the derivative of tanh which is 1 - tanh(z)^2.
+• Computational graphs are used to visualize the calculations of a neural network.
+• The delta rule is the rule when we calculate the cost when a weight changes when back propagating.
+• Traditional neural networks cannot model sequential data. Recurrent neural networks are needed for these types of problems.
