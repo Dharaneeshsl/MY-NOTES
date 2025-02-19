@@ -1,0 +1,390 @@
+DSA
+
+The sources provide information on various Data Structures and Algorithms (DSA) concepts, including algorithms, data structures, algorithmic thinking, and complexity analysis.
+Algorithms
+• An algorithm is a set of steps or instructions for completing a task.
+• In computer science, an algorithm is a set of steps a program takes to finish a task.
+• Algorithms follow specific guidelines, using the same steps to solve a problem each time it is faced.
+• An algorithm must have a clear problem statement, specifying input and output.
+• The steps in an algorithm need to be in a specific order and be distinct, not further breakable into subtasks.
+• Algorithms should produce a result and complete in a finite amount of time.
+• Executing the steps in an algorithm for a given input must result in the same output every time to be considered correct.
+Algorithmic Thinking
+• Algorithmic thinking involves breaking down a problem into a clearly defined input and output, along with a distinct set of steps to solve the problem.
+• It involves understanding when to apply an algorithm by properly understanding the problem at hand.
+• It's about breaking a problem into smaller problems, each with a defined input and output.
+• It requires working through guidelines before rushing into solutions.
+Data Structures
+• A data structure is a way of storing data, including the format, relationships between values, and operations on the data.
+• Arrays are a fundamental data structure that stores a collection of values, each referenced by an index or key. 
+• In some languages, arrays are homogeneous, containing values of the same type, while in others, like Python, they can contain different types.
+• Accessing elements in an array is a constant time operation.
+• Inserting and deleting elements in arrays have a linear time complexity in the worst case.
+• Linked lists are linear data structures where each element is in a separate object called a node. 
+• A node models an individual item of data and a reference to the next node in the list.
+• The first node is the head, and the last is the tail.
+• Linked lists can be singly linked, with each node referencing only the next node, or doubly linked, with references to both the next and previous nodes.
+• Inserting data into the head or tail of a linked list is more efficient than in an array.
+• Nodes in a linked list are self-referential, meaning that the definition of a node includes a link to another node.
+Complexity Analysis
+• Big O notation is a theoretical way of defining the complexity of an algorithm as a function of the size of the input. 
+• It simplifies complexity into a single variable, providing a big-picture view of performance.
+• Big O is a notation that condenses data points and graphs down to one variable.
+• It is used to describe both time and space complexity, particularly for comparing algorithms that solve the same problem.
+• It measures complexity as the input size grows and is the upper bound of an algorithm, representing the worst-case scenario.
+• Time complexity refers to how the runtime of an algorithm grows as the input size increases. 
+• Common run times include constant time (O(1)), linear time (O(n)), logarithmic time (O(log n)), and quadratic time (O(n^2)).
+• Constant time means the run time doesn't change with input size.
+• Linear time means the run time grows linearly with the size of the input.
+• Logarithmic time means that as the input size grows, the number of operations increases by a small factor.
+• Quadratic time means that for a given value of n, the algorithm executes n squared number of operations.
+• Quasi-linear time has a runtime between linear and quadratic, typically expressed as O(n log n).
+• Exponential time has a runtime that grows exponentially with the input size and is generally very inefficient.
+• Factorial time has a runtime that grows as a factorial of the input size and is very inefficient.
+• The time complexity of an algorithm is usually determined by the least efficient step in the algorithm.
+• Space complexity measures how much working or extra storage is needed as the algorithm grows. 
+• It is measured in the worst-case scenario using Big O notation.
+• It considers the additional storage required as the algorithm runs, not the initial input size.
+• For example, the iterative version of binary search runs in constant space, while the recursive version of binary search runs in logarithmic space in Python.
+• Merge sort has a linear space complexity (O(n)).
+Specific Algorithms
+• Linear Search: 
+• Starts at the beginning of a list and compares each value to the target value.
+• Has a time complexity of O(n).
+• Binary Search: 
+• Requires a sorted list.
+• Repeatedly divides the search interval in half.
+• Has a time complexity of O(log n).
+• Merge Sort: 
+• A sorting algorithm based on the divide and conquer approach, recursively breaking the problem into smaller subproblems until they are easily solved.
+• Divides the list into sub-lists, recursively sorts sub-lists and merges them.
+• Has a time complexity of O(n log n).
+• Selection Sort 
+• A sorting algorithm that finds the smallest element in a list, moves it to the beginning of a sorted list, and repeats until the entire list is sorted.
+• Has a time complexity of O(n^2).
+• Quick Sort 
+• A sorting algorithm that uses a pivot element to partition a list into sublists, and then recursively sorts each sublist.
+• Has a time complexity of O(n log n) on average, but O(n^2) in the worst case.
+Recursion
+• Recursion is a method where a function calls itself.
+• A recursive function needs a base case or stopping condition and a recursive case that causes it to call itself.
+• Recursive solutions can be less efficient than iterative solutions in some languages.
+• The number of times a recursive function calls itself is called the recursive depth.
+• Python has a maximum recursion depth.
+• Tail call optimization can reduce the space complexity of recursion in some languages like Swift.
+The sources provide a lot of information about discipline, focus, and concentration, offering various tools and techniques to improve these areas. 
+
+
+
+
+
+
+
+
+
+What is an Algorithm?
+An algorithm is a set of steps or instructions for completing a task [1]. It's like a recipe, a morning routine, or driving directions [1]. In computer science, it refers to the steps a program takes to finish a task [1].
+• Key aspects of an algorithm:A clear problem statement with defined input and output [2, 3].
+• A specific set of instructions in a particular order [2, 3].
+• Each step must be clear and not further divisible into subtasks [2, 3].
+• It should produce a result [2, 3].
+• It should complete in a finite amount of time [3].
+• Algorithmic thinking involves breaking a problem into smaller, manageable parts, each with a clearly defined input and output [4-6].
+Why are Algorithms Important?
+• Algorithms provide established solutions to common problems [1].
+• Understanding algorithms helps you write more efficient code [4].
+• They enable you to break down complex problems into distinct steps [4].
+• They help in understanding complexity and efficiency in programming [4].
+• Algorithmic thinking is a skill that is often tested in job interviews [4].
+Linear Search
+Linear search is a simple search algorithm that starts at the beginning of a list and checks each element until the target is found or the end of the list is reached [7].
+• Definition:Start at the beginning of the list [7].
+• Compare the current value to the target [7].
+• If they match, the search is complete [7].
+• If not, move to the next value and repeat step 2 [7].
+• If the end of the list is reached, the target is not in the list [7].
+• Python Implementation
+def linear_search(list, target):
+"""
+Returns the position or the index position of the target if found, else returns None.
+"""
+for i in range(len(list)):
+if list[i] == target:
+return i
+return None
+
+numbers = [1, 2, 4, 7-9]
+print(linear_search(numbers, 6))
+#output: 5
+• Time Complexity: Linear time, or O(n) [10, 11]. In the worst-case scenario, every element must be checked [10, 11].
+Binary Search
+Binary search is an algorithm that works on a sorted list. It repeatedly divides the search interval in half [12, 13].
+• Definition:Find the middle element of the sorted list [12].
+• If the middle element is the target, the search is complete [12].
+• If the target is less than the middle element, search the left half [12].
+• If the target is greater, search the right half [12].
+• Repeat until the target is found or the list is empty [12].
+• Python Implementation
+def binary_search(list, target):
+first = 0
+last = len(list) - 1
+while first <= last:
+midpoint = (first + last) // 2
+if list[midpoint] == target:
+return midpoint
+elif list[midpoint] < target:
+first = midpoint + 1
+else:
+last = midpoint - 1
+return None
+
+numbers = [1-5, 7-9]
+print(binary_search(numbers, 6))
+#output: 5
+• Time Complexity: Logarithmic time, or O(log n) [11, 14]. Each comparison halves the search space [11, 14].
+• Recursive Binary Search:
+• A recursive function calls itself within its definition [15].
+• It requires a base case (stopping condition) to avoid infinite loops [16].
+• def recursive_binary_search(list, target):
+• if len(list) == 0:
+• return False
+• else:
+• midpoint = len(list) // 2
+• if list[midpoint] == target:
+• return True
+• else:
+• if list[midpoint] < target:
+• return recursive_binary_search(list[midpoint + 1:], target)
+• else:
+• return recursive_binary_search(list[:midpoint], target)
+
+• numbers = [1-5, 7-9]
+• print(recursive_binary_search(numbers, 6))
+• #output: True
+* **Time Complexity**: Logarithmic time, or O(log n).
+* **Space Complexity**: Depends on implementation. Can be O(log n) due to function call stack in recursive implementations [17].
+
+**Data Structures**
+
+Data structures are ways of organizing and storing data in a computer, and they work hand-in-hand with algorithms [18, 19].
+
+* **Arrays (Lists in Python)**
+* Arrays store elements in contiguous memory locations [20, 21].
+* They provide fast access to elements using indices, which is a constant time operation [20-22].
+* Inserting or deleting elements in an array can be inefficient because it may require shifting other elements [23].
+
+```python
+new_list = [1, 4, 8]
+result = new_list
+print(result)
+#output: 1
+```
+* **Linked Lists**
+* A linked list consists of nodes, where each node contains data and a reference (or pointer) to the next node in the list [24].
+* Unlike arrays, linked lists do not store elements in contiguous memory locations [24].
+* Insertion and deletion at the beginning of a linked list can be done in constant time [25].
+
+```python
+class Node:
+"""
+An object for storing a single node of a linked list.
+Models two attributes: data and the link to the next node in the list.
+"""
+def __init__(self, data):
+self.data = data
+self.next_node = None
+
+def __repr__(self):
+return f"Node({self.data})"
+
+class LinkedList:
+"""
+An object for storing a linked list.
+"""
+def __init__(self):
+self.head = None
+
+def add(self, data):
+new_node = Node(data)
+new_node.next_node = self.head
+self.head = new_node
+
+def size(self):
+"""
+Returns the number of nodes in the list.
+Takes linear time.
+"""
+current = self.head
+count = 0
+while current:
+count += 1
+current = current.next_node
+return count
+
+def search(self, key):
+"""
+Search for the first node containing data that matches the key.
+Returns the node or None if not found.
+Takes O(n) or linear time.
+"""
+current = self.head
+while current:
+if current.data == key:
+return current
+else:
+current = current.next_node
+return None
+
+def insert(self, data, position):
+"""
+Inserts a new node containing data at index position.
+Insertion takes constant time but finding the node at the insertion point takes linear time.
+Therefore, it takes overall linear time.
+"""
+new_node = Node(data)
+if position == 0:
+new_node.next_node = self.head
+self.head = new_node
+return
+current = self.head
+while position > 1 and current.next_node:
+current = current.next_node
+position -=1
+new_node.next_node = current.next_node
+current.next_node = new_node
+
+def __repr__(self):
+nodes = []
+current = self.head
+while current:
+nodes.append(str(current.data))
+current = current.next_node
+return "-> ".join(nodes)
+
+l = LinkedList()
+l.add(10)
+l.add(20)
+l.add(30)
+l.insert(100,1)
+print(l)
+#output: 30-> 100-> 20-> 10
+print(l.size())
+#output: 4
+print(l.search(20))
+#output: Node(20)
+```
+* Singly linked lists have nodes that point to the next node only, while doubly linked lists have nodes pointing to both the next and previous nodes [24].
+* Traversing a linked list to find a specific node or insert at a specific position can take linear time [23, 25, 26].
+
+**Sorting Algorithms**
+
+Sorting algorithms organize data in a specific order. The sources discuss several sorting algorithms:
+
+* **Bogosort:**
+* A very inefficient sorting algorithm that repeatedly randomizes the list until it is sorted [27].
+* It has no practical use [27].
+* **Selection Sort:**
+* It repeatedly finds the minimum element from the unsorted part and puts it at the beginning [28].
+* It is simple to implement but not very efficient for large lists [28].
+* **Quicksort:**
+* A recursive algorithm that picks a pivot value and splits the list into sublists of values less than or greater than the pivot [29, 30].
+* It recursively sorts these sub-lists [30].
+* It is generally more efficient than selection sort [30, 31].
+* Its time complexity is typically O(n log n) [31].
+* Implementation:
+```python
+def quicksort(list):
+if len(list) <= 1:
+return list
+
+less_than_pivot = []
+greater_than_pivot = []
+pivot = list
+for i in range(1, len(list)):
+if list[i] <= pivot:
+less_than_pivot.append(list[i])
+else:
+greater_than_pivot.append(list[i])
+
+return quicksort(less_than_pivot) + [pivot] + quicksort(greater_than_pivot)
+
+numbers = [15, 21, 26, 31-34]
+print(quicksort(numbers))
+#output: [15, 21, 26, 31-34]
+```
+
+* **Merge Sort:**
+* A recursive algorithm that divides the list in half, recursively sorts each half, and then merges the sorted halves [31].
+* It has a time complexity of O(n log n) [35].
+* Implementation:
+```python
+def merge_sort(list):
+"""
+Sorts a list in ascending order.
+Returns a new sorted list.
+Merge sort has three main steps:
+1. Divide: find the mid point of the list and divide into sub-lists.
+2. Conquer: recursively sort the sub-lists created in previous step.
+3. Combine: merge the sorted sub-lists created in previous step.
+"""
+if len(list) <= 1:
+return list
+
+left_half, right_half = split(list)
+left = merge_sort(left_half)
+right = merge_sort(right_half)
+return merge(left, right)
+
+def split(list):
+"""
+Divide the unsorted list at midpoint into sub lists.
+Returns two sub-lists left and right.
+"""
+midpoint = len(list) // 2
+left = list[:midpoint]
+right = list[midpoint:]
+return left, right
+
+def merge(left, right):
+"""
+Merges two lists or arrays, sorting them in the process.
+Returns a new merged list.
+"""
+l = []
+i = 0
+j = 0
+
+while i < len(left) and j < len(right):
+if left[i] < right[j]:
+l.append(left[i])
+i += 1
+else:
+l.append(right[j])
+j += 1
+
+while i < len(left):
+l.append(left[i])
+i += 1
+
+while j < len(right):
+l.append(right[j])
+j += 1
+
+return l
+
+numbers = [15, 21, 26, 31-34]
+print(merge_sort(numbers))
+#output: [15, 21, 26, 31-34]
+```
+* **Merge Sort on Linked List:** The basic merge sort logic is the same, but the implementation is different because you must traverse a linked list by following references from one node to the next [36]. Instead of dividing a list by slicing, you divide by traversing, and instead of moving values, you move references between the linked list nodes [32, 36].
+
+**Time and Space Complexity**
+
+* **Time complexity** measures how the runtime of an algorithm grows as the input size (n) increases [17, 37].
+* **Constant time**: O(1), the runtime doesn't change with input size [38].
+* **Linear time**: O(n), the runtime increases proportionally to the input size [10, 11, 25, 38].
+* **Logarithmic time**: O(log n), the runtime increases logarithmically with the input size [11, 14, 15].
+* **n log n**: O(n log n), the runtime grows proportionally to the input size times the log of the input size [31, 35, 39].
+* **Space complexity** measures how much extra memory an algorithm requires [17, 37]. It also uses Big O notation.
+
+This explanation covers the key concepts and code examples from the provided sources. It should give you a solid understanding of algorithms and data structures.
