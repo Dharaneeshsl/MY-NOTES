@@ -1,0 +1,93 @@
+Artificial intelligence
+
+
+
+The sources discuss several key concepts in artificial intelligence, including search problems, knowledge representation, logical inference, probability, and machine learning. Here's an explanation of these topics:
+Search Problems:
+• A search problem involves navigating from an initial state to a goal state by taking actions.
+• An agent perceives its environment and acts upon it. For example, a car trying to reach a destination.
+• A state is a particular configuration of the environment. The state space is all the possible states, often represented as a graph of nodes and edges.
+• Actions are choices made in a state, which can be defined as a function that takes a state and returns a possible action. The result function takes a state and an action and returns a new state.
+• A goal test is a way to determine if a state is a goal state.
+• A path cost is the cost of a sequence of actions. The goal is often to find an optimal solution, a sequence of actions with the lowest path cost.
+• Nodes in the search space store information about the state, its parent node, and the action taken to reach it.
+• Expanding a node means looking at its neighbors, the states reachable from it.
+• A frontier is a collection of nodes to be explored. The frontier can be treated as a stack (Last-In-First-Out) or a queue (First-In-First-Out).
+Search Algorithms:
+• Depth-First Search (DFS) treats the frontier like a stack, exploring deeply before considering siblings. It may not find the optimal solution.
+• Breadth-First Search (BFS) treats the frontier like a queue, exploring all neighbors before moving to the next level..
+• Informed search strategies use problem-specific knowledge to find solutions more efficiently.
+• Greedy Best-First Search chooses the node closest to the goal based on a heuristic.
+• A* Search expands the node with the lowest value of g(n) + h(n) where g(n) is the cost to reach the node and h(n) is a heuristic estimate to the goal.
+• A heuristic must be consistent meaning that the heuristic value of a node should be less than or equal to the heuristic value of its successor plus the cost of the step.
+Adversarial Search:
+• In adversarial situations, agents compete against each other.
+• Minimax is an algorithm for determining the best move in a game by recursively evaluating possible future states.
+Knowledge Representation:
+• AI needs to be able to represent knowledge, reason with it, and draw conclusions.
+• A sentence is an assertion about the world in a knowledge representation language.
+• Propositional symbols represent facts or sentences.
+• Logical connectives are used to combine propositional symbols such as: 
+• Not (¬): If P is false, ¬P is true, and vice versa.
+• And (∧): P ∧ Q is true only if both P and Q are true.
+• Or (∨): P ∨ Q is true if either P or Q or both are true.
+• Implication (→): P → Q means if P is true, Q must be true. If P is false, the implication is still considered true. The implication is only false when P is true and Q is false.
+• Biconditional (↔): P ↔ Q means P is true if and only if Q is true.
+• A model assigns a truth value (true or false) to every propositional symbol, creating a "possible world".
+• Entailment (⊨): α ⊨ β means that in every model where α is true, β is also true.
+• Inference is the process of deriving new sentences from existing ones.
+• An inference algorithm answers the question: Does the knowledge base (KB) entail a query (α)?.
+Inference Algorithms:
+• Model Checking: Enumerates all possible models and checks if, in every model where the KB is true, the query α is also true.
+• Inference rules are used to transform knowledge into new forms, for example, Modus Ponens.
+• Resolution: A powerful rule where, if p or q is true, and also ¬p or r is true, then it is possible to conclude that q or r must be true.
+• A clause is a disjunction of literals (a literal is a propositional symbol or its opposite).
+• Conjunctive Normal Form (CNF): A logical sentence that is a conjunction (and) of clauses (or).
+• Inference by resolution is done by first assuming the opposite of what you're trying to prove, converting the knowledge base and the negation of the query to CNF, and then repeatedly applying resolution to generate new clauses, and then attempting to derive a contradiction (empty clause). If a contradiction is derived then the original query is entailed, and if a contradiction cannot be derived, there is no entailment.
+First-Order Logic:
+• First order logic has constant symbols representing objects, and predicate symbols that represent relationships or functions.
+• Universal quantification (∀) expresses that a statement is true for all values of a variable.
+• Existential quantification (∃) expresses that there exists at least one value for which a statement is true.
+Probability:
+• The sum of all possible outcomes should equal 1.
+• Conditional probability calculates the likelihood of an event given that another event has occurred.
+• A random variable has a domain of values it can take on.
+• A probability distribution lists the probabilities of each value for a random variable.
+• Joint probability distributions show the probability of each combination of values for a set of random variables.
+• Marginalization is the process of calculating the probability of one variable from a joint probability distribution.
+• Bayes' Rule allows for the calculation of one conditional probability given another conditional probability.
+• A Bayesian network represents the relationships among random variables, where a node's probability depends on its parents.
+• The inference problem in a Bayesian network is about finding the distribution of a query variable given some evidence.
+• Inference by enumeration involves iterating over all hidden variables and summing their possibilities to get the result.
+• Direct sampling is a method to approximate probability by generating a bunch of samples.
+• Hidden Markov Models can be used to infer a sequence of hidden states based on a sequence of observations.
+Local Search:
+• Local search is used when the path to the solution doesn't matter, only the solution itself.
+• The Traveling Salesperson Problem is an example where a path must visit all cities and return to the origin with minimal distance.
+Constraint Satisfaction Problems (CSP):
+• CSPs involve finding a set of values that satisfies constraints.
+• Node consistency means all values in a variable's domain satisfy the unary constraints.
+• Arc consistency means for every value of a variable there is a possible value for any connected variable such that the binary constraints are satisfied.
+• Backtracking Search can be used to solve CSPs by trying assignments for each variable in turn, and going back if there are conflicts.
+• Maintaining Arc Consistency involves interleaving search with inference, enforcing arc consistency at each step.
+Machine Learning:
+• Supervised learning uses input-output pairs to learn a function that predicts outputs from new inputs. The goal is to minimize the empirical loss.
+• A hypothesis function is a function that attempts to approximate the true function.
+• Reinforcement learning involves learning through interactions with an environment, maximizing a reward signal. Q-learning learns a function Q(s,a) that returns the value of doing action a in state s.
+• Neural networks are used to learn complex functions, using weighted inputs and activation functions.
+• Hidden layers in neural networks introduce additional complexity to better model the input data.
+• Accuracy is a measure of how well a model correctly predicts outputs.
+Natural Language Processing:
+• Syntax is the structure of language, including how sentences are formed.
+• Semantics is the meaning of language, including the meaning of words and sentences.
+• A formal grammar is a system of rules for generating sentences in a language.
+• Parsing is the process of figuring out the grammatical structure of a sentence.
+• The bag-of-words model treats text as a collection of words without regard to order.
+• Naive Bayes is a classifier that assumes words are independent of each other.
+• A one-hot vector is a representation of the meaning of a word as a vector with a single 1.
+• Distributed representations of word meanings distribute the meaning across multiple vector values.
+• A word's meaning can be derived by the company it keeps, the words around it in a text.
+• Encoder-decoder architectures transform an input sequence into an output sequence, with attention mechanisms deciding which input values to attend to when generating output.
+• Self-attention allows an input word to decide what other words in the input to pay attention to.
+• Transformers use self-attention and feedforward neural networks.
+These concepts form the foundation of many AI systems and algorithms.
