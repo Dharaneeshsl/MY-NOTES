@@ -1,0 +1,68 @@
+Cyber security
+
+A Microsoft certification, such as the sc900, provides industry-endorsed evidence of skills and demonstrates a willingness to stay current with industry trends. The sc900 exam focuses on Microsoft security, compliance, and identity fundamentals.
+This certification can help you:
+• Demonstrate your skills and commitment to staying updated in a fast-changing industry.
+• Stand out to potential employers.
+• Prepare for a career in cybersecurity.
+The course content covers many different topics including:
+• Computer basics: including hardware, software, and operating systems.
+• Enterprise systems: including infrastructure, storage, and networking.
+• Cybersecurity landscape: including types of cyber attacks and how to minimize risk.
+• Data protection: including backup solutions and practical steps to protect data.
+• Operating systems: including how they provide directions to the hardware and configure applications to communicate with hardware.
+• Software: including the two main categories of proprietary and open-source software.
+• Email: including email servers and clients, and security features that help with spam.
+• Cloud storage: including Microsoft Azure, Azure files, blob storage, and managed disks.
+• Data analysis: including data lakes and data warehouses.
+• Network types: including PANs, WANs, SANs, and VPNs.
+• Network topology: the physical and logical structure of networks.
+• IP addressing: how devices are identified and located on networks.
+• OSI model: a theoretical model for understanding data transmission across a network.
+• Network protocols: including TCP.
+• Port numbers: how they help manage multiple conversations happening simultaneously.
+• Domain Name System (DNS): how it makes finding websites easier.
+• Cloud services: including SaaS, PaaS, and IaaS.
+• Microsoft Azure: a cloud computing platform with a wide range of services.
+• Virtualization: how software computers work.
+• Cryptography: including encryption and hashing.
+• Symmetric and asymmetric encryption: how they protect data.
+• Encryption algorithms: such as AES, Blowfish, RSA, Diffie-Hellman, and ECC.
+• Hashing: how it turns data into a fixed-size string of bytes.
+• Risk management: including the phases of identification, assessment, response, and monitoring.
+• Azure Active Directory (Azure AD): a service for managing access to resources.
+• Authentication methods: including passwords, Microsoft authenticator app, and single sign-on (SSO).
+• Password vaults: how they secure access to critical resources.
+• Azure security: including built-in measures and best practices.
+• Distributed Denial of Service (DDoS) protection: two types of DDoS protection.
+• Microsoft Defender for Cloud: a tool for cloud security posture management and cloud workload protection.
+• Microsoft Sentinel: a cloud-native SIEM and SOAR solution.
+• Microsoft 365 Defender: an integrated security solution.
+• Microsoft Purview: a data governance solution.
+• Penetration testing: including reconnaissance, enumeration, exploitation, escalation, and reporting and remediation.
+• Command line interface (CLI): an important tool for penetration testing.
+• Disaster recovery: planning for and recovering from unexpected incidents.
+• Data security: measures to protect data.
+• Log collection and analysis: how they are imperative for maintaining a secure environment.
+• Microsoft's six privacy principles: user control, transparency, security, legal protections, no content-based targeting, and benefits for the customer.
+• Microsoft Service Trust Portal (STP): a resource for security and compliance.
+• Cloud security posture management (CSPM): a security solution for maintaining and enhancing cloud security.
+• Availability and continuity: how Microsoft Azure achieves these through regions and zones.
+• Business continuity management (BCM): planning for continuous operation of business functions during incidents.
+• Reliability: how to monitor it in Azure.
+• CIS benchmarks: configuration standards for securing a system.
+• Data loss prevention (DLP): how it protects sensitive data and prevents unintentional disclosure.
+• Data lifecycle management (DLM): systematic management of data from creation to disposal.
+• Data mapping: how it enhances data governance.
+• Access and DevOps policies: how they ensure efficient control over data resources.
+• Insider risk management: how to identify and resolve internal risk activities.
+• Zero trust models: an end-to-end solution for security.
+• Firewalls: how they protect virtual assets.
+• Microsoft security benchmark: a guide for implementing cloud-based applications.
+• Information barriers (IB): how they are implemented to prevent conflicts of interest.
+• Azure blueprints: how they enable rapid deployment of services.
+• Role-based access control (RBAC): a way to tailor access permissions to different roles.
+• Common Vulnerability Scoring System (CVSS): a standardized tool to gauge the severity of security vulnerabilities.
+• Visual, agile, and simple threat modeling (VAST): a modern threat modeling framework.
+• Security development life cycle (SDLC): a process for effective threat modeling.
+This comprehensive course will help you build a solid foundation of knowledge about cyber security threats, how computers work, and how businesses use computer systems.
