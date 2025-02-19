@@ -1,0 +1,82 @@
+Quantum Physics
+
+
+
+I. The Need for Quantum Mechanics
+• Classical Physics Limitations: Around 1900, physicists believed they had a complete understanding of the universe, based on classical physics. It was thought that with perfect knowledge of the present, the future could be predicted. However, certain experimental results could not be explained.
+• "Dark Clouds" on the Horizon: Three key experiments highlighted the need for a new theory: 
+• Blackbody Radiation: Classical physics failed to explain the spectrum of light emitted by hot objects, especially at short wavelengths. The Rayleigh-Jeans law predicted an "ultraviolet catastrophe" where intensity went to infinity at short wavelengths.
+• Photoelectric Effect: Classical physics predicted that the energy of ejected electrons would increase with the intensity of light. However, experiments showed that the energy of ejected electrons increased with the frequency of light, not the intensity.
+• Bright Line Spectra: Gases emit light at very specific frequencies, which could not be explained using classical physics. These spectra appear as spikes, rather than a continuous curve.
+• A New Approach: The need for a new approach to physics was recognized and the development of quantum mechanics began. Quantum mechanics is deeply non-intuitive and requires an open mind to approach.
+II. Key Concepts in Quantum Mechanics
+• The Wave Function (ψ): The wave function describes the state of a system and is a solution to the Schrödinger equation. It is expressed in complex numbers. The wave function does not describe the system perfectly, only giving probabilities for properties of the system.
+• Probability: Probabilities are a key feature of quantum mechanics. The probability of finding a particle between positions a and b is given by integrating the square of the absolute magnitude of the wave function between those points. The wave function is related to the probability distribution of position.
+• Operators: Operators act on the wave function to give some property of the system, or an observable. For example, the momentum operator acts on the wave function to yield the momentum.
+• Schrödinger Equation: This is a central equation in quantum mechanics that describes how the wave function evolves with time. The time-dependent Schrödinger equation is a partial differential equation. 
+• Time-Independent Schrödinger Equation: Applying separation of variables to the time-dependent Schrödinger equation leads to the time-independent Schrödinger equation. This equation is essential to solving for the spatial part of the wave function, also called stationary states.
+• Complex Numbers: Complex numbers, involving the imaginary unit 'i' (where i² = -1), are essential for understanding quantum mechanics. The wave function is expressed in complex numbers.
+• A complex number z can be expressed as z = x + iy, where x is the real part and y is the imaginary part.
+• Euler's formula, e^(iy) = cos(y) + isin(y), is also used in quantum mechanics.
+• Normalization: The integral of the squared absolute magnitude of the wave function over all space must equal 1, which ensures that the total probability of finding a particle is 1. The time evolution does not affect normalization.
+• Variance: Variance measures the spread of a probability distribution. It is defined as the mean of the square minus the square of the mean.
+III. Uncertainty Principles
+• Position and Momentum: The uncertainty in a particle's position (Δx) multiplied by the uncertainty in its momentum (Δp) is approximately greater than or equal to Planck's constant divided by 2. This relationship defines the domain of quantum mechanics.
+• Energy and Time: Similarly, the uncertainty in energy (ΔE) multiplied by the uncertainty in time (Δt) is also approximately greater than or equal to Planck's constant divided by 2. This relationship is related to the frequency of the wave in time.
+• Uncertainty and Wave Packets: The uncertainty principle can be understood as a consequence of adding many waves together. Wave packets represent a combination of waves with different momenta or energies. A wave packet with a very certain position has a very uncertain momentum, and vice versa.
+IV. Potentials and Solutions to the Schrödinger Equation
+• Potentials Encode the Environment: The potential function in the Schrödinger equation describes the environment of a quantum system. Different potentials lead to different solutions of the Schrödinger equation and thus different quantum mechanical states.
+• Examples of Potentials: 
+• Infinite Square Well Potential: A potential that confines a particle to a box by going to infinity at the edges of the box.
+• Harmonic Oscillator Potential: A potential that resembles a parabola and is relevant to many physical systems.
+• Delta Function Potential: An infinitely sharp and deep potential well.
+• Finite Square Well Potential: A potential well with finite depth.
+• Curvature of Wave Function: The second derivative of the wave function is related to its curvature. The relationship between the potential and the energy determines the curvature of the wave function.
+• Boundary Conditions: The solutions to the Schrodinger equation must be smooth, which helps determine the boundary conditions. 
+• For a step discontinuity in the wave function, the first derivative of the wave function is discontinuous.
+• Stationary States: Solutions to the time-independent Schrödinger equation are called stationary states. Stationary states have an associated energy, and their time dependence is a simple rotation in the complex plane.
+• Discrete Energies: For bound systems, only certain discrete energy levels are allowed. This leads to quantization, where energy, angular momentum, and other quantities can only have certain specific values.
+V. Mathematical Formalism
+• Linear Algebra: Quantum mechanics is based on linear algebra and vector spaces called Hilbert space. Vectors in this space represent the state of the system. 
+• Inner Product: The inner product of two vectors in Hilbert space corresponds to the overlap between two states and is analogous to an integral involving wave functions.
+• Orthonormality: The states that are solutions of the Schrödinger equation generally form an orthonormal set, meaning they are normalized and orthogonal to each other.
+• Completeness: Any arbitrary state can be expressed as a sum of the solutions to the Schrödinger equation, if those solutions form a complete basis.
+• Continuous Spectra: For systems where a particle is not confined, the energy spectrum becomes continuous. The momentum operator has a continuous spectrum.
+• In this case, the normalization of the eigenstates involve delta functions rather than simply equaling to 1.
+VI. Observables, Measurements, and Statistical Interpretation
+• Operators and Observables: Operators represent physical observables and acting on a wavefunction with an operator yields an eigenvalue related to the observable.
+• Hermitian Operators: Operators that correspond to physical observables are called Hermitian.
+• Measurements and Probabilities: The outcome of a measurement in quantum mechanics is probabilistic. The probability of observing a specific outcome is given by the square of the inner product of the measured state and the eigenstate corresponding to the specific outcome.
+• Generalized Uncertainty Principle: The uncertainty principle applies to any two operators that do not commute. If two observables do not commute, their corresponding uncertainties will be non-zero. The commutator of two operators tells us how much the corresponding measurements are going to interfere with each other.
+VII. Time Evolution and Energy-Time Uncertainty
+• Time Dependence: The time-dependent Schrödinger equation describes how the wave function evolves in time.
+• Time Derivative of Expectation Values: The time derivative of the expectation value of an observable is related to the commutator between the observable and the Hamiltonian, and the energy uncertainty. 
+• If the energy uncertainty is small, then the time derivatives of the expectations of any observables will be small.
+• Stationary States: Stationary states are eigenstates of the Hamiltonian. They evolve in a simple way, with the time dependence being a rotation in the complex plane. True stationary states do not change with time.
+VIII. Quantum Mechanics in 3D and the Hydrogen Atom
+• Separation of Variables: Separation of variables can be applied to the Schrödinger equation in three dimensions to simplify the problem. 
+• Spherical coordinates are a useful coordinate system when the potential is spherically symmetric.
+• Hydrogen Atom: The solutions of the Schrödinger equation for the hydrogen atom yield the energy levels and the wave functions of the electron orbiting the proton. 
+• The radial part of the solution involves associated Laguerre polynomials, and the angular part involves spherical harmonics.
+• The energy levels of the hydrogen atom are quantized and depend on the quantum number n.
+• Transitions between energy levels result in the emission or absorption of photons with specific frequencies, which is the basis of the bright-line spectra.
+• Spectroscopy: The bright line spectra of atoms can be explained using the energy levels predicted by quantum mechanics.
+• The Lyman series, Balmer series, Paschen series, etc are all transitions that occur between different energy levels.
+IX. Identical Particles and Multi-Particle Systems
+• Indistinguishable Particles: In quantum mechanics, identical particles are indistinguishable. This means there is no physical difference between two electrons, for instance.
+• Symmetric and Anti-Symmetric Wavefunctions: The total wave function of a multi-particle system must be either symmetric or anti-symmetric under the exchange of two identical particles. 
+• Bosons are particles that have symmetric wave functions, and fermions have anti-symmetric wave functions.
+• This requirement of (anti)symmetry results in unique behaviors of quantum mechanical systems.
+• Free Electrons in Conductors: The behavior of free electrons in conductors can be reasonably well modeled by treating the electrons as free particles in a box.
+• The allowed energy levels form a continuous band rather than discrete energies, and the electrons fill the lowest energy levels first.
+• Energy Bands in Solids: The energy levels available for electrons in solids form bands, separated by gaps. 
+• The nature of a material, whether a conductor, insulator, or semiconductor, depends on the relative population of the energy bands.
+• The filling of the bands determines whether a material is a conductor, insulator, or semiconductor.
+X. Angular Momentum
+• Angular Momentum Operator: Angular momentum is a vector quantity defined as r x p and is represented by an operator in quantum mechanics.
+• Commutator: The components of angular momentum operators do not commute with each other.
+• This means the components of the angular momentum cannot be measured simultaneously, as given by the uncertainty principle.
+• Spherical Coordinates: Angular momentum operators can be written in spherical coordinates.
+• Eigenvalues: The square of the total angular momentum and the z-component of the angular momentum are quantized.
+• Unit Vectors: Unit vectors in spherical coordinates are different from the operators for angular momentum components.
+Let me know if you would like any of these concepts explained in further detail!
