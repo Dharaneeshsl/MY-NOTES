@@ -1,0 +1,214 @@
+Logical Thinking
+
+Okay, here are full notes from all of the provided video transcripts, organized by video and with key points bolded:
+Video 1: 2-Minute Rule to Learn Coding - Atomic Habits
+• Many people watch online tutorials but do not progress towards becoming a software engineer.
+• Learning to code can feel like a boring task, making it hard to stay motivated.
+• The book Atomic Habits by James Clear discusses habit loops, environment priming, and using dopamine to stick to good habits.
+• Small changes in direction can compound over time and lead to significant changes in outcomes.
+• New programmers do not need to build revolutionary things to enter the tech industry; they need to take small steps every day.
+• Building daily "atomic habits" is key to progress.
+• Improvement in programming skills may not feel linear; there is often an initial "valley of disappointment" where progress is not apparent.
+• Many people give up during this initial phase, but the returns for effort are delayed.
+• After the initial phase, learning new languages, building projects, and getting jobs can feel natural.
+• A "habit loop" consists of a cue, craving, response, and reward. 
+• Bad habit example: Phone vibrates (cue), you crave to see the notification, you pick up the phone (response), and get a dopamine release from social media (reward).
+• This loop can also be used to build good habits.
+• To build a habit of learning programming: 
+• Use your laptop as a cue, placing it in a visible location where you waste the most time.
+• Use implementation intentions: attach a specific plan to your intention, such as "Every morning when the alarm goes off, I will do a programming lesson for 2 hours on my desk.".
+• Stack habits by attaching the new habit to a current habit, such as "Right after I brush my teeth, I will do a programming lesson for 2 hours on my desk.".
+• Dopamine is important for motivation. It is released during both good and bad actions. 
+• Temptation bundling: tie an activity you want to do with something you already enjoy. For example, watch Netflix only while cycling above a certain speed.
+• Write a program that tracks time spent in the code editor, which then controls time spent on your phone.
+• The 2-minute rule: start with very small goals to make habit-building easier. 
+• For example, commit to doing two programming exercises a day.
+Video 2: 4 Habits That Will Make You a Better Programmer
+• Habit 1: Start Developing 
+• You need to start building something instead of just watching tutorials.
+• Start with small projects like a calculator, a to-do app, or a simple HTML page.
+• Errors and challenges will make you better.
+• Team up with another beginner and learn from each other.
+• Read other people's code to pick up techniques and patterns.
+• Focus on building consistently rather than aiming for perfection in the beginning.
+• Experience is the best teacher.
+• Habit 2: Embrace Failures 
+• Failures are inevitable, and do not reflect intelligence or ability.
+• See failures as opportunities to learn and grow.
+• Use Google to find solutions to problems.
+• Take breaks to clear your mind.
+• Don't be afraid to ask for help.
+• Push forward when coding gets difficult instead of trying the next interesting thing.
+• Every struggle builds coding muscles and problem-solving skills.
+• Habit 3: Have Faith That Problems are Solvable 
+• Experienced programmers believe every problem has a solution, even if not obvious.
+• This faith is built through experience solving problems and debugging errors.
+• With patience, persistence, and thinking, you'll find the path from "not working" to "working".
+• Habit 4: Have a Growth Mindset 
+• A growth mindset is the belief that intelligence and abilities are not fixed.
+• Challenge yourself with projects outside of your comfort zone.
+• A growth mindset makes you more adaptable to challenges.
+• Embrace difficult problems to expand your skill set.
+• Build a solid foundation before moving to advanced concepts.
+• Get the "bigger picture" before diving into the details.
+Video 3: 9 Programming Lessons I Wish I Knew Earlier
+• Lesson 1: There's more to life than Big Tech. 
+• Do not make landing a job at a big tech company your life goal.
+• It is statistically harder to get a job at Google than to get accepted into Harvard.
+• Big tech jobs may involve working on very specific parts of a large system.
+• Smaller companies and startups may offer more diverse opportunities, more engaging work, and more fun.
+• Reflect on why you got into programming; if it is about growth, smaller companies may be better.
+• Lesson 2: Fundamentals are your best friend. 
+• The fundamentals, such as variables, loops, data structures, and algorithms, are the building blocks of every coding project.
+• Focus on understanding the basics before chasing the latest trends.
+• Solidifying your grasp on fundamentals will "future-proof" your skills.
+• Lesson 3: The importance of Real-World Experience. 
+• The professional world is unlike college assignments; there are no predefined correct answers.
+• You will often be presented with vague problems and expected to find solutions.
+• Real-world experience is the best teacher.
+• You will have to adapt, innovate, and improvise.
+• Start small by diving into open-source projects, taking up freelancing, or finding any type of internship.
+• Lesson 4: Network as much as you can. 
+• Connections are as important as skills.
+• Relationships offer shared knowledge, experience, and insights.
+• Build genuine relationships rather than cold messaging professionals.
+• Opportunities come from both what you know and who you know.
+• Lesson 5: Imposter syndrome will happen to most of you. 
+• Many people feel overshadowed by more experienced programmers.
+• Recognize and acknowledge imposter syndrome; you are not alone with these doubts.
+• Your path is uniquely yours.
+• Lesson 6: Learn how to collaborate and work as a team. 
+• Collaboration is as important as any programming language or framework.
+• Master tools like version control.
+• Develop soft skills, like communication and the ability to take feedback.
+• Your ability to collaborate will define the impact you make.
+• Lesson 7: Specialization versus generalization. 
+• Start as a generalist by exploring various programming areas.
+• Once you find your niche, start specializing and diving deep.
+• Lesson 8: You'll always be a student. 
+• The tech world is always evolving, so there is always something new to learn.
+• Enjoy the journey and the opportunity to grow.
+• Project-based learning helps you to learn and understand concepts.
+• Projects present challenges that textbook exercises do not.
+• Projects serve as evidence of your skills.
+Video 4: How to build logics in programming
+• It is common to struggle with logic building in programming.
+• Simply practicing is not enough; specific steps must be followed.
+• Step 1: Analyze the data flow. 
+• It is important to understand how data is being passed and processed.
+• Dry run (using pen and paper) to track the values of the data.
+• Focus on the data flow instead of logic.
+• Step 2: 90-10 Teaching 
+• 90% of the work should be done by the teacher and 10% by the student.
+• Teaching is different from a walkthrough.
+• The teacher should give students precise tasks and monitor their progress.
+• Self-learners often jump into a project without the necessary preparation.
+• Start with a small part of a project and do your own 10% implementation.
+• Step 3: To-do apps 
+• Do not underestimate to-do apps; they are fundamental projects.
+• Start with a basic to-do app and gradually add more functionality.
+• To-do apps can be expanded with features like search, filtering, and database connections.
+• Step 4: Add value 
+• Start by adding your own value to tutorials or projects you have watched.
+• For example, if you learned how to make a login page, try to make a register page.
+• Add small features to build confidence.
+Video 5: Learn To Code Like a GENIUS and Not Waste Time
+• Learning to code is about problem-solving and continuous learning, not just programming languages.
+• It is important to learn how to learn because: 
+• Technology changes rapidly.
+• Coding requires problem-solving.
+• You must be adaptable to new challenges.
+• You must be able to learn independently.
+• It allows efficient learning.
+• To start coding: 
+• Determine what you want to make and why you want to code.
+• What you want to make will guide your learning path.
+• Why you want to code will motivate you when you encounter bugs.
+• The programming language you should learn depends on your interests. 
+• For web development: HTML, CSS, JavaScript.
+• For mobile apps: Swift (iOS), Java or Kotlin (Android), or React Native/Flutter for both.
+• For video games: Unity, GDau, or Unreal Engine.
+• For AI and machine learning: Python.
+• There are many resources available, including online courses, YouTube videos, books, and coding communities.
+• Avoid "tutorial hell," which is consuming programming tutorials without applying the knowledge. 
+• Instead, do project-based learning, applying what you've learned to real-world projects.
+• Add to existing tutorials by building other features from scratch.
+• Start with small projects, and then you will encounter real problems and learn to solve them.
+• Speed up learning by sharing your progress online or finding a coding buddy.
+Video 6: Logic Building in Programming - 5 Proven Strategies (2024) 🔥
+• Every developer faces logic-building problems.
+• Tip 1: Get your hands dirty by writing code. 
+• Practice is necessary to become perfect.
+• Make basic programs and fail; you will learn in the process.
+• You can learn logic building by writing code.
+• Tip 2: Start with simple programs. 
+• Do not solve complex problems from LeetCode right away.
+• Use basic program playlists as resources, looking at the solution and doing it yourself.
+• Consistency is key; solve a couple of problems daily for at least a month.
+• Slowly increase the difficulty of problems you are trying to solve.
+• Tip 3: Organize your code. 
+• Plan how to organize your code.
+• Make folders for different parts of your project.
+• Name files properly.
+• Tip 4: Break your code into small modular reusable components. 
+• Give each module a specific responsibility.
+• Use the "dry" (don't repeat yourself) principle.
+• This makes code more maintainable, reusable, and less cluttered.
+• Tip 5: Use tutorials and others' code for practice. 
+• Work on simple projects like to-do lists, tic-tac-toe, and basic blogs.
+• If you can't write code, watch a tutorial and follow along.
+• Do pair programming.
+• Use the Rubber Duck method: explain code to a rubber duck.
+• Use ChatGPT or Google Bard for code review.
+• Work on real-world projects to improve your programming skills and problem-solving ability.
+• Logic building is not magic; you need to work on your skills and spend time on it.
+• Logic building is not binary; there is always room for improvement.
+• The number of lines of code you have written in your lifetime is directly related to the amount of logic you know.
+Video 7: This is Why Programming Is Hard For you
+• Programming involves logical thinking, problem-solving, and understanding the problem and tools, not just writing code.
+• The "developer mindset" is what makes programming hard, not the coding itself.
+• Knowing a programming language is like memorizing a recipe, but you need to understand the principles behind it.
+• With a strong foundation, you can craft solutions from scratch instead of copying and pasting code.
+• You need to develop your problem-solving and logical-thinking skills.
+• Tutorials can show you how to do things, but you need to figure things out yourself.
+• Tutorial hell is where you watch endless tutorials without being able to solve new problems.
+• Tutorials are meant to be removed, like training wheels.
+• To gain the programmer mindset: 
+• Break down problems into smaller, more manageable tasks.
+• Use project-based learning.
+• Use the Feynman Technique: explain concepts in simple terms.
+• Embrace failure as a learning tool.
+• Practice regularly for a long period of time.
+• Stop comparing yourself to other people.
+Video 8: This video will change the way you think when coding
+• Programmers make computers do things humans would not try, making it hard to think like a programmer.
+• Humans might solve a problem by calculating the factorial, while programmers might start making all the possibilities from scratch.
+• Programmers start with a small problem and build up to a larger one.
+• Programming requires engaging your "slow brain" instead of your "fast brain." 
+• The "fast" brain jumps to conclusions, while the "slow" brain requires analysis.
+• Programming requires "first principles" thinking, which involves breaking down a complex problem into fundamental elements. 
+• This involves breaking large problems down into smaller solvable ones.
+• Modular programming is important, with separate functions for different tasks.
+• Dynamic Programming (DP) also involves breaking a problem down.
+• Senior engineers break problems into subproblems, while junior engineers work on small subproblems.
+• Programmers build on the work of others. 
+• You don't need to know everything, you need to know where to find it.
+• There's a good chance that someone has already solved your problem.
+• The programming world is constantly changing, and you must adapt to survive.
+• "Become water my friend" means to be open-minded and constantly evolving.
+
+Video 9: [GAMECHANGER🔥] Logic Making in Programming | Sheryians
+• Many students struggle with logic building.
+• The common advice to "practice" can be unhelpful when students don't know where to start..
+• Use ChatGPT to get a list of the top 5 easiest questions to solve as a beginner in your programming language.
+• When you try to solve the question: 
+• Do not start by directly coding.
+• Think about it first, and plan your approach.
+• If you cannot solve it, it's okay, and it is a chance to learn and improve.
+• Ask ChatGPT to explain the question in an easy way. 
+• Ask for more simplification, if needed, or a summary of how to approach the question.
+• Research specific concepts you don't understand.
+• Do not get discouraged when investing a lot of time in coding, it is beneficial.
+• This approach has worked to help students who could not do basic addition to solve array and object problems.
+These notes should provide a good overview of the key concepts from each of the videos. Let me know if I can help with anything else!
+
