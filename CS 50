@@ -1,0 +1,73 @@
+CS 50
+Certainly, let's delve into a comprehensive explanation of the concepts presented in the sources.
+Algorithms and Efficiency
+• Linear Search: This involves checking each item in a list one by one until the target item is found. The time it takes to complete increases linearly with the size of the problem. For instance, if you add one more page to a phonebook, the search time increases by a proportional amount.
+• Binary Search: This algorithm works by repeatedly dividing the search interval in half. This method dramatically reduces the search space. For example, a 1,000-page phonebook can be reduced to 500, then 250, and so on. The time to solve a problem with binary search is related to log base 2 of n.
+• Big O, Omega, and Theta Notation: These are formal tools for analyzing algorithms. Big O provides an upper bound on the growth rate of an algorithm. Omega provides a lower bound. Theta describes the tight bound when the upper and lower bounds are the same.
+• Selection Sort: This algorithm sorts a list by repeatedly finding the minimum element from the unsorted part and placing it at the beginning. It involves a lot of back-and-forth movement.
+• Bubble Sort: This algorithm repeatedly steps through the list, compares adjacent elements and swaps them if they are in the wrong order. It focuses on smaller problems and compares pairs of values. The algorithm can stop when no swaps are made, indicating that the list is sorted.
+• Merge Sort: This is a recursive sorting algorithm that divides a list into halves, sorts each half, and then merges the sorted halves.
+Programming Concepts
+• Source Code: This is the code written by a human programmer. It doesn't matter if it's in Scratch, C, or Python.
+• Functions: These are blocks of code that perform a specific task and can be reused. Some functions do something on the screen while some also return a value. Functions can also be abstractions, meaning you don't need to know how they work internally to use them.
+• Loops: These are cycles that result in doing the same thing repeatedly. Loops will stop if the problem is divided and reduced.
+• Conditionals: These are statements that allow code to execute different blocks depending on whether a condition is true or false.
+• Variables: Variables store values. In C, the type of value stored in a variable needs to be specified.
+• Return Values: Some functions provide a return value which can be used as an input for other functions.
+• Correctness: Code is correct if it does what is intended.
+• Design: Code can be correct but poorly designed. Good design involves avoiding repeating code.
+• Abstraction: This is the process of hiding the implementation details of code to make it easier to use.
+C Programming Language
+• Compilation: Source code needs to be compiled into machine code. The make command automates this process.
+• Header Files: These files contain declarations of functions. For example, stdio.h is needed for standard input/output functions like printf. cs50.h provides access to functions specific to the CS50 library.
+• Libraries: Collections of code that provide useful functions.
+• printf Function: Used to print output to the console. It uses format codes like %s for strings, %c for characters, and %i for integers. The order of format codes corresponds to the order of variables passed to printf.
+• Semicolons: Statements in C must end with a semicolon.
+• Command-Line Arguments: These are additional inputs provided to a program when it's executed. They are accessed via the argc (argument count) and argv (argument vector) parameters in the main function.
+• Exit Status: A program returns an integer when it finishes, often 0 for success and non-zero for errors.
+• Pointers: A pointer stores the memory address of a variable. They are declared using * and their values are accessed using *. The address of a variable can be obtained with &.
+• Strings: In C, strings are represented as arrays of characters. string is not technically a keyword but a cs50 construct that is really a pointer to a character, or char*.
+• malloc and free: malloc is a function that allocates a block of memory, and free releases the memory.
+• valgrind: A tool used to detect memory leaks and errors.
+• Arrays: Arrays are used to store multiple values of the same type. They can be passed as arguments to functions. Arrays don't keep track of their own length.
+• Linked Lists: These are data structures where each element (node) points to the next one in the sequence. The last node points to NULL. They can be used to implement queues.
+Debugging Tools
+• Debugger: A program used to step through code line by line. Breakpoints can be set to pause execution at specific lines. Stepping into will follow the code inside the function, and stepping over will execute the function without going inside.
+• GDB (GNU Debugger): A piece of software used for debugging.
+• DDB (Duck Debugger): CS50's debugger, a pun on GDB.
+Data Structures
+• Nodes: A container in code for storing values.
+• Hash Table: A data structure that allows for fast lookups of data.
+• Trees: A hierarchical data structure where each node can have multiple children.
+Other Concepts
+• Pseudo Code: Using English-like statements to describe an algorithm.
+• Cipher Text: The result of encrypting some piece of information.
+• Encryption: The art and science of keeping data secure.
+• Format Code: A placeholder for a variable in a formatted string.
+• Syntax Highlighting: A feature that displays code in different colors to help with readability.
+Python
+• Dictionaries: A data structure used to store key-value pairs.
+• try and except: Used to handle errors or exceptions.
+• List Comprehension: A concise way to create lists.
+• for loop: Used to iterate through collections of data.
+• print function: Includes arguments such as end to modify the line ending.
+• Libraries: Collections of code that provide useful functions.
+• Modules: Python files that contain code that can be reused in other programs.
+• sys.argv: List that contains the command-line arguments.
+• sys.exit: Function used to terminate a program and set exit status.
+• Wild card (%): Used in SQL queries to match zero or more characters.
+Web Development
+• HTML: Hypertext Markup Language, the standard language for creating web pages.
+• Tags: Elements of HTML that mark up content, often with a start and end tag.
+• Attributes: Keywords inside a tag that modify the behavior of the tag.
+• <div> tag: A generic tag for dividing a page into different sections.
+• Hyperlinks: A link from one webpage to another.
+• Developer Tools: Tools built into browsers that help with debugging and web development.
+• Cookies: Small files that web servers store in web browsers to remember data about users.
+SQL
+• Schema: The design of a database.
+• SQL light: A light version of SQL.
+• SELECT Statement: SQL statement used to retrieve data from a database.
+• JOIN Clause: Used to combine rows from two or more tables based on a related column between them.
+• WHERE Clause: Used to filter records based on specified conditions.
+Let me know if you would like more detail on any of these areas.
